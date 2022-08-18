@@ -1,0 +1,82 @@
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.subTitle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+  max-width: 700px;
+  color: rgb(78, 78, 78);
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.basketBtn{
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.basketItem{
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .image{
+    width: 300px;
+    height: 250px;
+  }
+  .title{
+    font-size: 22px;
+    width: 500px;
+    text-align: center;
+  }
+  .price{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    color: rgb(3, 172, 45);
+  }
+}
+
+.countBtns{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.countNumber{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.totalSum{
+  width: 100%;
+  padding: 15px;
+  margin-top: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.totalSumNum{
+  font-size: 34px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: rgb(3, 172, 45);
+}

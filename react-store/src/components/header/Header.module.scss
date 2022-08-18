@@ -1,0 +1,71 @@
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(29, 133, 252);
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  a {
+    color: white;
+  }
+}
+
+.navItems {
+  display: flex;
+  column-gap: 50px;
+  .nav {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+
+  a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease;
+  }
+
+  a:hover {
+    color: rgb(219, 219, 219);
+  }
+}
+
+.basketIcon {
+  a {
+    font-size: 42px;
+  }
+  position: relative;
+}
+
+.ElementInBasket, .fovoritesCount, .reviewsCount {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: sans-serif;
+}
+
+.fovoritesWrapper, .reviewsWrapper{
+  position: relative;
+}
+.fovoritesCount, .reviewsCount{
+  top: -30px;
+  right: -10px;
+}

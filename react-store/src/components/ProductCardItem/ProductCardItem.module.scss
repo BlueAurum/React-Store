@@ -1,0 +1,46 @@
+.cardItem{
+    width: 350px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.cardItem:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
+}
+
+.cardImage{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.productTitile, .productPrice{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.productPrice{
+    color: rgb(85, 231, 0);
+    font-weight: 600;
+    margin-top: auto;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.cardBtns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.favoritesIcon{
+    cursor: pointer;
+    font-size: 20px;
+}

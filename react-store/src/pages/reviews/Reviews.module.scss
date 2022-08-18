@@ -1,0 +1,59 @@
+.reviewsItem{
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.603);
+}
+
+.commentHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.date{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(102, 0, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.image{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(0, 219, 99);
+}
+
+.mainText{
+    padding: 10px;
+    background-color: rgba(236, 199, 156, 0.459);
+    border-radius: 10px;
+}
+
+.name, .surname{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.message{
+    padding: 10px;
+    background-color: white;
+    font-size: 24px;
+    overflow-y: auto;
+    max-height: 120px;
+}
+
+.notReviews{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
